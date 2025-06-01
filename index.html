@@ -1,181 +1,128 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Intel's Sustainability Journey</title>
-  <!-- Bootstrap RTL -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
-  <!-- FontAwesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-
 <body>
   <!-- Hero Section -->
   <header class="bg-primary text-white text-center py-5">
-    <img src="assets/th.jpg" alt="Intel Logo" class="logo mb-3" style="width: 100px;">
+    <img src="assets/th.jpg" alt="Intel Logo" class="mb-3" style="width: 100px;">
     <h1>Intel's Sustainability Journey</h1>
     <p>Building a more sustainable future through innovation.</p>
   </header>
 
   <!-- Timeline Section -->
   <main>
-    <section class="timeline">
-      <!-- Milestone: 1985 -->
-      <div class="milestone">
-        <div class="year">1985</div>
-        <div class="details">
-          <img src="assets/rec.jpeg" alt="Recyclable Materials">
-          <h3>Early Adoption of Recyclable Materials</h3>
-          <p>Began using recyclable materials in its packaging to minimize waste.</p>
-        </div>
+    <section class="d-flex overflow-auto p-4 gap-3">
+      <!-- Milestone Cards -->
+      <div class="card p-3" style="min-width: 300px;">
+        <div class="fw-bold text-primary">1985</div>
+        <img src="assets/rec.jpeg" alt="Recyclable Materials" class="img-fluid mb-2">
+        <h3>Early Adoption of Recyclable Materials</h3>
+        <p>Began using recyclable materials in its packaging to minimize waste.</p>
       </div>
-
-      <!-- Milestone: 1995 -->
-      <div class="milestone">
-        <div class="year">1995</div>
-        <div class="details">
-          <img src="assets/cool.jpg" alt="Innovative Cooling">
-          <h3>Reducing Emissions with Innovative Cooling</h3>
-          <p>Introduced new cooling technologies in facilities to cut greenhouse gas emissions significantly.</p>
-        </div>
+      <div class="card p-3" style="min-width: 300px;">
+        <div class="fw-bold text-primary">1995</div>
+        <img src="assets/cool.jpg" alt="Innovative Cooling" class="img-fluid mb-2">
+        <h3>Reducing Emissions with Innovative Cooling</h3>
+        <p>Introduced new cooling technologies in facilities to cut greenhouse gas emissions significantly.</p>
       </div>
-
-      <!-- Milestone: 2008 -->
-      <div class="milestone">
-        <div class="year">2008</div>
-        <div class="details">
-          <img src="assets/ecofriend.avif" alt="Green Building">
-          <h3>Launching the First Green Building</h3>
-          <p>Intel built its first LEED-certified green building, setting a benchmark for future facilities.</p>
-        </div>
+      <div class="card p-3" style="min-width: 300px;">
+        <div class="fw-bold text-primary">2008</div>
+        <img src="assets/ecofriend.avif" alt="Green Building" class="img-fluid mb-2">
+        <h3>Launching the First Green Building</h3>
+        <p>Intel built its first LEED-certified green building, setting a benchmark for future facilities.</p>
       </div>
-
-      <!-- Milestone: 2012 -->
-      <div class="milestone">
-        <div class="year">2012</div>
-        <div class="details">
-          <img src="assets/riv.jpg" alt="Water Restoration">
-          <h3>Investing in Water Restoration Projects</h3>
-          <p>Intel started funding community-based water restoration projects in regions experiencing scarcity.</p>
-        </div>
+      <div class="card p-3" style="min-width: 300px;">
+        <div class="fw-bold text-primary">2012</div>
+        <img src="assets/riv.jpg" alt="Water Restoration" class="img-fluid mb-2">
+        <h3>Investing in Water Restoration Projects</h3>
+        <p>Intel started funding community-based water restoration projects in regions experiencing scarcity.</p>
       </div>
-
-      <!-- Milestone: 2015 -->
-      <div class="milestone">
-        <div class="year">2015</div>
-        <div class="details">
-          <img src="assets/earth.avif" alt="Climate Leadership">
-          <h3>Joining the Climate Leadership Program</h3>
-          <p>Intel joined the EPA's Climate Leadership Program, committing to ambitious goals for reducing greenhouse gas emissions.</p>
-        </div>
+      <div class="card p-3" style="min-width: 300px;">
+        <div class="fw-bold text-primary">2015</div>
+        <img src="assets/earth.avif" alt="Climate Leadership" class="img-fluid mb-2">
+        <h3>Joining the Climate Leadership Program</h3>
+        <p>Intel joined the EPA's Climate Leadership Program, committing to ambitious goals for reducing greenhouse gas emissions.</p>
       </div>
-
-      <!-- Milestone: 2017 -->
-      <div class="milestone">
-        <div class="year">2017</div>
-        <div class="details">
-          <img src="assets/chp.jpg" alt="Energy Efficient Processors">
-          <h3>Advancing Energy-Efficient Processors</h3>
-          <p>Intel released a new generation of processors designed to reduce energy consumption in data centers by 40%.</p>
-        </div>
+      <div class="card p-3" style="min-width: 300px;">
+        <div class="fw-bold text-primary">2017</div>
+        <img src="assets/chp.jpg" alt="Energy Efficient Processors" class="img-fluid mb-2">
+        <h3>Advancing Energy-Efficient Processors</h3>
+        <p>Intel released a new generation of processors designed to reduce energy consumption in data centers by 40%.</p>
       </div>
-
-      <!-- Milestone: 2019 -->
-      <div class="milestone">
-        <div class="year">2019</div>
-        <div class="details">
-          <img src="assets/recycle-plant-ai_972075-8766.avif" alt="Zero Waste">
-          <h3>Zero Waste Landfill Initiative</h3>
-          <p>Intel implemented processes to ensure that 90% of waste generated in manufacturing facilities was recycled or reused.</p>
-        </div>
+      <div class="card p-3" style="min-width: 300px;">
+        <div class="fw-bold text-primary">2019</div>
+        <img src="assets/recycle-plant-ai_972075-8766.avif" alt="Zero Waste" class="img-fluid mb-2">
+        <h3>Zero Waste Landfill Initiative</h3>
+        <p>Intel implemented processes to ensure that 90% of waste generated in manufacturing facilities was recycled or reused.</p>
       </div>
-
-      <!-- Milestone: 2021 -->
-      <div class="milestone">
-        <div class="year">2021</div>
-        <div class="details">
-          <img src="assets/iStock-Wind-Turbine-Farm-min.jpg" alt="Renewable Energy">
-          <h3>Achieving 100% Renewable Energy in U.S. Operations</h3>
-          <p>Intel transitioned all its U.S. facilities to run entirely on renewable energy sources, reducing its carbon footprint significantly.</p>
-        </div>
+      <div class="card p-3" style="min-width: 300px;">
+        <div class="fw-bold text-primary">2021</div>
+        <img src="assets/iStock-Wind-Turbine-Farm-min.jpg" alt="Renewable Energy" class="img-fluid mb-2">
+        <h3>Achieving 100% Renewable Energy in U.S. Operations</h3>
+        <p>Intel transitioned all its U.S. facilities to run entirely on renewable energy sources, reducing its carbon footprint significantly.</p>
       </div>
+      <div class="card p-3" style="min-width: 300px;">
+        <div class="fw-bold text-primary">2023</div>
+        <img src="assets/water.jpg" alt="Water Conservation" class="img-fluid mb-2">
+        <h3>Innovation in Water Conservation</h3>
+        <p>Intel reduced water usage by 30% across global facilities.</p>
+      </div>
+    </section>
 
-      <!-- Milestone: 2023 -->
-      <div class="milestone">
-        <div class="year">2023</div>
-        <div class="details">
-          <img src="assets/water.jpg" alt="Water Conservation">
-          <h3>Innovation in Water Conservation</h3>
-          <p>Intel reduced water usage by 30% across global facilities.</p>
+    <!-- 3-Column Content Section -->
+    <section class="container my-5">
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded shadow-sm h-100">
+            <i class="fa fa-leaf fa-3x mb-3 text-success"></i>
+            <h2 class="mb-3">RISE Strategy</h2>
+            <p>As part of the RISE strategy, Intel has achieved key milestones like the launch of its first green building (2008) and water conservation innovations (2023).</p>
+            <a href="#" class="btn btn-outline-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded shadow-sm h-100">
+            <i class="fa fa-globe fa-3x mb-3 text-info"></i>
+            <h2 class="mb-3">Commitment</h2>
+            <p>In 2021, Intel achieved 100% renewable energy for its U.S. operations and committed to net-zero emissions by 2040.</p>
+            <a href="#" class="btn btn-outline-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded shadow-sm h-100">
+            <i class="fa fa-recycle fa-3x mb-3 text-warning"></i>
+            <h2 class="mb-3">Water &amp; Waste</h2>
+            <p>Intel conserves billions of gallons of water and reduces waste through recycling and upcycling efforts.</p>
+            <a href="#" class="btn btn-outline-primary">Learn More</a>
+          </div>
         </div>
       </div>
     </section>
 
-  <!-- 3-Column Content Section -->
-<section class="container my-5">
-  <div class="row text-center">
-    <!-- Column 1 -->
-    <div class="col-md-4 mb-4">
-      <h2 class="mb-3">RISE Strategy</h2>
-      <p>
-        As part of the RISE strategy (Responsible, Inclusive, Sustainable, Enabling), Intel has achieved key milestones like the 
-        launch of its first green building (2008) and innovations in water conservation (2023). Intel’s 2030 goals drive
-        industry-wide progress in climate action, water stewardship, and waste reduction.
-      </p>
-      <!-- Learn More Button -->
-      <a href="#" class="btn btn-outline-primary">Learn More</a>
-    </div>
-
-    <!-- Column 2 -->
-    <div class="col-md-4 mb-4">
-      <h2 class="mb-3">Commitment</h2>
-      <p>
-        In 2021, Intel achieved 100% renewable energy for its U.S. operations and committed to net-zero greenhouse 
-        gas emissions by 2040. These goals build on decades of initiatives like emissions reduction (1995) and partnerships 
-        across the semiconductor industry.
-      </p>
-      <!-- Learn More Button -->
-      <a href="#" class="btn btn-outline-primary">Learn More</a>
-    </div>
-
-    <!-- Column 3 -->
-    <div class="col-md-4 mb-4">
-      <h2 class="mb-3">Water &amp; Waste</h2>
-      <p>
-        Intel conserves billions of gallons of water annually through projects like watershed restoration (2012) and
-        innovation in water conservation (2023). Intel also promotes waste reduction with its zero waste initiative (2019), 
-        advancing a circular economy.
-      </p>
-      <!-- Learn More Button -->
-      <a href="#" class="btn btn-outline-primary">Learn More</a>
-    </div>
-  </div>
-</section>
-
-
-
-<!-- Subscription Form -->
-<section class="container my-5">
-  <div class="row">
-    <div class="col-md-6 offset-md-3">
-      <h2 class="text-center mb-4">Subscribe to Our Newsletter</h2>
-      <form>
-        <!-- Email Field -->
-        <div class="mb-3">
-          <label for="email" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+    <!-- Subscription Form -->
+    <section class="container my-5">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h2 class="text-center mb-4">Subscribe to Our Newsletter</h2>
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </div>
+          </form>
         </div>
-        <!-- Submit Button -->
-        <div class="text-center">
-          <button type="submit" class="btn btn-primary">Subscribe</button>
-        </div>
-      </form>
-    </div>
-  </div>
-</section>
-</main>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer class="bg-dark text-white py-4">
@@ -186,6 +133,5 @@
       <a href="#" class="text-white mx-2">Contact</a>
     </div>
   </footer>
-  
 </body>
 </html>
