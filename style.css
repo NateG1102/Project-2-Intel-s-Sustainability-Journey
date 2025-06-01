@@ -1,4 +1,4 @@
-/* === Reset & Global === */
+/* === Global Reset === */
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +25,7 @@ header .logo {
   margin-bottom: 1rem;
 }
 
-/* === Timeline === */
+/* === Timeline Section === */
 .timeline {
   display: flex;
   flex-direction: row;
@@ -33,6 +33,14 @@ header .logo {
   scroll-snap-type: x mandatory;
   gap: 1rem;
   padding: 2rem;
+}
+
+.timeline::-webkit-scrollbar {
+  height: 8px;
+}
+.timeline::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
 }
 
 @media (max-width: 768px) {
@@ -55,7 +63,7 @@ header .logo {
   width: 300px;
   scroll-snap-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .timeline .card:hover {
@@ -69,13 +77,14 @@ header .logo {
   margin-bottom: 1rem;
 }
 
-.timeline .card .year {
+.timeline .year {
   font-size: 1.5rem;
   font-weight: bold;
   color: #0071c5;
+  margin-bottom: 0.5rem;
 }
 
-/* === 3-Column Section === */
+/* === 3-Column Section Enhancements === */
 .row .col-md-4 {
   text-align: center;
 }
