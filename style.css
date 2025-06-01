@@ -30,6 +30,18 @@
     gap: 1rem;
     padding: 2rem;
   }
+
+  @media (max-width: 768px) {
+    .timeline {
+      flex-direction: column;
+      overflow-x: visible;
+      scroll-snap-type: none;
+    }
+  
+    .milestone {
+      width: 100%;
+    }
+  }
   
   .milestone {
     background: #f4f4f4;
@@ -47,6 +59,20 @@
     transform: scale(1.05);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
   }
+
+  .milestone .details {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+  }
+  
+  .milestone:hover .details {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
   
   .milestone img {
     width: 100%;
